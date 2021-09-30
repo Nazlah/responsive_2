@@ -1,0 +1,121 @@
+body {
+  /* backroud halaman web */
+  background-color: #ecf0f1;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #bdc3c7;
+  /* padding-right: 10px;
+  padding-left: 10px;
+  background: blue; */
+}
+#header {
+  margin-bottom: 250px;
+}
+
+.sidebar {
+  width: 400px;
+  /* height: 1000px; */
+  height: 600px;
+  float: left;
+}
+.content {
+  width: 800px;
+  height: 600px;
+  float: right;
+  margin-top: 100px;
+}
+.clear {
+  clear: both;
+}
+#logo {
+  float: left;
+  width: 200px;
+  height: auto;
+  padding-left: 20px;
+}
+#logo img {
+  max-width: 100%;
+  height: auto;
+}
+#menu {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  float: right;
+  width: 950px;
+}
+#menu li {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#menu li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #34495e;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.blog-content {
+  float: left;
+  /* max-width: 200px; */
+  /* margin-right: 100px;
+  margin-left: 50px;
+  margin-bottom: 10px; */
+  max-width: 380px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.blog-content img {
+  /* width: 100px;
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  object-fit: cover; */
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+/* .text-box {
+  width: 100px;
+  height: 100px;
+  padding-left: 50px;
+  padding-right: 20px;
+  object-fit: cover;
+} */
+.recent-article {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.ricent-article ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.blog-single {
+  float: left;
+  /* max-width: 200px; */
+  /* margin-right: 100px;
+  margin-left: 50px;
+  margin-bottom: 10px; */
+  max-width: 500px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 720px;
+}
+/* .text-boxx {
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  object-fit: cover;
+} */
+
+@media screen (max-width: );
